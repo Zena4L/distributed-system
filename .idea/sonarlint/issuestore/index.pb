@@ -23,15 +23,11 @@ C
 docker-compose.yaml,e\f\ef8def03dc8f162799089e9b5f4321201c8810d5
 u
 Ecustomer/src/main/java/com/backend/repository/CustomerRepository.java,b\1\b120b65bdc5b1691891b47352277dea82b9a7da7
-h
-8customer/src/main/java/com/backend/config/AppConfig.java,9\b\9bbe70baa84d9275b9555dcc2c0e1006bf09178f
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 =
 fraud/pom.xml,d\0\d024669e89b7b66ac8ba07340a73edc6aa228259
-X
-(fraud/src/main/java/com/backend/App.java,f\f\ffac116d68890f68d0c7a1edfbbaf723e521641a
 ]
 -fraud/src/main/java/com/backend/FraudApp.java,8\1\81f5f1bf3eb308114e01f34965b8489938f6062e
 l
@@ -44,7 +40,9 @@ n
 >fraud/src/main/java/com/backend/service/FraudCheckService.java,a\f\af0282828bea905cbe7be960f3b067188bdfa921
 r
 Bfraud/src/main/java/com/backend/service/FraudCheckServiceImpl.java,d\0\d044ab19b4bf2bd55da6d5464b32af637d35e413
-n
->customer/src/main/java/com/backend/dto/FraudCheckResponse.java,5\3\53648671fe2a5d371d58a1d71f7dbb8962f2bdb4
 k
 ;fraud/src/main/java/com/backend/dto/FraudCheckResponse.java,e\4\e4bb89fb88a2eb14001ccc61c6a6187dd5eaf6cf
+m
+=customer/src/main/java/com/backend/config/CustomerConfig.java,9\8\98b87db2030a03033d94e398eaa06479a7161ec7
+n
+>customer/src/main/java/com/backend/dto/FraudCheckResponse.java,5\3\53648671fe2a5d371d58a1d71f7dbb8962f2bdb4
