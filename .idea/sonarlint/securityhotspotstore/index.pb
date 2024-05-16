@@ -28,3 +28,23 @@ h
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+=
+fraud/pom.xml,d\0\d024669e89b7b66ac8ba07340a73edc6aa228259
+X
+(fraud/src/main/java/com/backend/App.java,f\f\ffac116d68890f68d0c7a1edfbbaf723e521641a
+]
+-fraud/src/main/java/com/backend/FraudApp.java,8\1\81f5f1bf3eb308114e01f34965b8489938f6062e
+l
+<fraud/src/main/java/com/backend/model/FraudCheckHistory.java,7\7\77ef16adef347ec3c706e11f5b044ac65ef1d5f0
+{
+Kfraud/src/main/java/com/backend/repository/FraudCheckHistoryRepository.java,f\6\f6e833b3aa2b25ef16567533eb1519cd2e325867
+t
+Dfraud/src/main/java/com/backend/controller/FraudCheckController.java,2\c\2ccd1053b61883250f049c17a5e67670dd1ce947
+n
+>fraud/src/main/java/com/backend/service/FraudCheckService.java,a\f\af0282828bea905cbe7be960f3b067188bdfa921
+r
+Bfraud/src/main/java/com/backend/service/FraudCheckServiceImpl.java,d\0\d044ab19b4bf2bd55da6d5464b32af637d35e413
+n
+>customer/src/main/java/com/backend/dto/FraudCheckResponse.java,5\3\53648671fe2a5d371d58a1d71f7dbb8962f2bdb4
+k
+;fraud/src/main/java/com/backend/dto/FraudCheckResponse.java,e\4\e4bb89fb88a2eb14001ccc61c6a6187dd5eaf6cf
