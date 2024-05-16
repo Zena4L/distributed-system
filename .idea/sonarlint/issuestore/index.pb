@@ -46,3 +46,7 @@ m
 =customer/src/main/java/com/backend/config/CustomerConfig.java,9\8\98b87db2030a03033d94e398eaa06479a7161ec7
 n
 >customer/src/main/java/com/backend/dto/FraudCheckResponse.java,5\3\53648671fe2a5d371d58a1d71f7dbb8962f2bdb4
+E
+eureka-server/pom.xml,b\3\b39ae52d769ea03b699b5602439afd875433c8a7
+l
+<eureka-server/src/main/java/com/backend/EurekaServerApp.java,c\9\c98e7a82ef62169a74737bc2313121d650b92c05

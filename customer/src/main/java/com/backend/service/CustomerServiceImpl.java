@@ -31,7 +31,7 @@ public class CustomerServiceImpl implements CustomerService {
         repository.saveAndFlush(customer);
 
         //todo: make a request to fraud service to check
-        FraudCheckResponse fraudCheckResponse = restTemplate.getForObject("http://localhost:8081/v1/api/fraud/{customerId}",
+        FraudCheckResponse fraudCheckResponse = restTemplate.getForObject("http://FRAUD/api/v1/fraud/{customerId}",
                 FraudCheckResponse.class, customer.getId());
 
         assert fraudCheckResponse != null;
