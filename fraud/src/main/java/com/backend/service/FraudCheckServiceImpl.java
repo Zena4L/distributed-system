@@ -1,6 +1,6 @@
 package com.backend.service;
 
-import com.backend.dto.FraudCheckResponse;
+import com.backend.fraud.FraudCheckResponse;
 import com.backend.model.FraudCheckHistory;
 import com.backend.repository.FraudCheckHistoryRepository;
 import lombok.AllArgsConstructor;

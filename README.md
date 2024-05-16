@@ -6,10 +6,12 @@
 
 > Module Manager : Maven Parent Module(Maven multi module)
 
-## Inter Process Communication
+## Inter Process Communication (IPC)
 
 > I use [openFeign](https://spring.io/projects/spring-cloud-openfeign) instead of since it 
-> is deprecated`RestTemplate`
+> is deprecated`RestTemplate` for Remote Procedure Calls (RPC)
+> ### Module:Client will contain all the RPC with openFeign
+> To use client --> add it to the pom.xml
 
 ## Service discovery
 

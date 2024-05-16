@@ -50,3 +50,11 @@ E
 eureka-server/pom.xml,b\3\b39ae52d769ea03b699b5602439afd875433c8a7
 l
 <eureka-server/src/main/java/com/backend/EurekaServerApp.java,c\9\c98e7a82ef62169a74737bc2313121d650b92c05
+?
+clients/pom.xml,e\8\e897e41994586ab73af075bc072526099d5eec43
+g
+7clients/src/main/java/com/backend/ClientServiceApp.java,f\3\f3eb2a2870f0955ed89e31a97756a5fb7e4d494e
+h
+8clients/src/main/java/com/backend/fraud/FraudClient.java,9\8\982e4bf04b20581e18194ca5f8f8f19e43047fef
+o
+?clients/src/main/java/com/backend/fraud/FraudCheckResponse.java,7\0\7099520e0e64bd795b8865a7ced62cdfbd797e22

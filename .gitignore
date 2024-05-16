@@ -8,6 +8,7 @@ target/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
+.idea/encodings.xml
 .idea/dataSources.xml
 .idea/sonarlint/**
  .idea/uiDesigner.xml

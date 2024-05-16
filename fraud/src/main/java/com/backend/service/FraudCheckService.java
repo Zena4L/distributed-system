@@ -1,6 +1,7 @@
 package com.backend.service;
 
-import com.backend.dto.FraudCheckResponse;
+
+import com.backend.fraud.FraudCheckResponse;
 
 import java.util.UUID;
 

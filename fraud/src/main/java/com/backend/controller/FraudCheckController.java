@@ -1,7 +1,7 @@
 package com.backend.controller;
 
 
-import com.backend.dto.FraudCheckResponse;
+import com.backend.fraud.FraudCheckResponse;
 import com.backend.service.FraudCheckService;
 import org.springframework.web.bind.annotation.*;
 

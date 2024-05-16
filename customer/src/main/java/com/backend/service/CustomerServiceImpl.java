@@ -1,7 +1,8 @@
 package com.backend.service;
 
 import com.backend.dto.CustomerRequest;
-import com.backend.dto.FraudCheckResponse;
+import com.backend.fraud.FraudCheckResponse;
+import com.backend.fraud.FraudClient;
 import com.backend.model.Customer;
 import com.backend.repository.CustomerRepository;
 import lombok.AllArgsConstructor;
@@ -14,6 +15,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     private final CustomerRepository repository;
     private final RestTemplate restTemplate;
+    private final FraudClient fraudClient;
 
     @Override
     public void register(CustomerRequest request) {
@@ -31,8 +33,9 @@ public class CustomerServiceImpl implements CustomerService {
         repository.saveAndFlush(customer);
 
         //todo: make a request to fraud service to check
-        FraudCheckResponse fraudCheckResponse = restTemplate.getForObject("http://FRAUD/api/v1/fraud/{customerId}",
-                FraudCheckResponse.class, customer.getId());
+
+
+        FraudCheckResponse fraudCheckResponse =  fraudClient.checkFraud(customer.getId());
 
         assert fraudCheckResponse != null;
         if (fraudCheckResponse.isFraudster()) {

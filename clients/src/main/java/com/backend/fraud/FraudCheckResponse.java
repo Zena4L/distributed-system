@@ -1,4 +1,4 @@
-package com.backend.dto;
+package com.backend.fraud;
 
 import lombok.Builder;
 
