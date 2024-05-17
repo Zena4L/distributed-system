@@ -98,3 +98,9 @@ p
 @clients/src/main/java/com/clement/notification/Notification.java,e\c\ec1d1b684e0f98e021a30b4e84b040e35eba1ec4
 v
 Fclients/src/main/java/com/clement/notification/NotificationClient.java,5\8\5863e75c603504c729d56749e02b4084ff7d0bf0
+?
+gateway/pom.xml,4\b\4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3
+a
+1gateway/src/main/java/com/clement/GatewayApp.java,d\d\dd15ce0f77ea069d5507e198415c45b8bd5912da
+k
+;gateway/src/main/java/com/clement/config/GatewayConfig.java,8\b\8b84c8c737ef778a55d6cca0382e6aad8171e38d
