@@ -8,7 +8,7 @@
 
 ## Inter Process Communication (IPC)
 
-> I use [openFeign](https://spring.io/projects/spring-cloud-openfeign) instead of since it 
+> I use [openFeign](https://spring.io/projects/spring-cloud-openfeign) instead of since it
 > is deprecated`RestTemplate` for Remote Procedure Calls (RPC)
 > ### Module:Client will contain all the RPC with openFeign
 > To use client --> add it to the pom.xml
@@ -22,9 +22,15 @@
 > * Microservice will need to register as Clients
 > * The make a request to Eureka server to discover the available server and the server will look up
 > * The server returns the correct location and the client will connect
-> The downside is that in case the server is down then there is going to be a downtown
-> The server will be an `independent standalone service`(polyglottic)
-> Server is running on `http://localhost:8761/`
+    > The downside is that in case the server is down then there is going to be a downtown
+    > The server will be an `independent standalone service`(polyglottic)
+    > Server is running on `http://localhost:8761/`
 
 ## Load-Balancer
+
 > To have eureka client use service discover, the need to use a load balancer or a gateway
+
+## Distributed Tracing with Actuator and Zipkin
+
+> Add the zipkin image to ur compose file if you don't have it install locally
+> By adding Actuator and Zipkin dependency it will automatically fire up a zipkin dashboard
