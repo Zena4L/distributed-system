@@ -1,4 +1,4 @@
-package com.backend.fraud;
+package com.clement.fraud;
 
 import lombok.Builder;
 

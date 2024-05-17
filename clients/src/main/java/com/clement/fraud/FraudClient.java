@@ -1,4 +1,4 @@
-package com.backend.fraud;
+package com.clement.fraud;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,4 +11,5 @@ public interface FraudClient {
 
     @GetMapping("api/v1/fraud/{customerId}")
     FraudCheckResponse checkFraud(@PathVariable("customerId") UUID customerId);
+
 }

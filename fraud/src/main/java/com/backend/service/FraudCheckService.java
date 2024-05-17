@@ -1,7 +1,9 @@
 package com.backend.service;
 
 
-import com.backend.fraud.FraudCheckResponse;
+
+
+import com.clement.fraud.FraudCheckResponse;
 
 import java.util.UUID;
 

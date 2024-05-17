@@ -1,8 +1,8 @@
 package com.backend.controller;
 
 
-import com.backend.fraud.FraudCheckResponse;
 import com.backend.service.FraudCheckService;
+import com.clement.fraud.FraudCheckResponse;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;

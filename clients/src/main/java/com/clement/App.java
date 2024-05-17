@@ -1,10 +1,10 @@
-package com.backend;
+package com.clement;
 
 /**
  * Hello world!
  *
  */
-public class ClientServiceApp
+public class App 
 {
     public static void main( String[] args )
     {

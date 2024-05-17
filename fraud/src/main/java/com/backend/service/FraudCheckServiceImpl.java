@@ -1,8 +1,8 @@
 package com.backend.service;
 
-import com.backend.fraud.FraudCheckResponse;
 import com.backend.model.FraudCheckHistory;
 import com.backend.repository.FraudCheckHistoryRepository;
+import com.clement.fraud.FraudCheckResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

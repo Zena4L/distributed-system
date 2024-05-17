@@ -2,16 +2,13 @@ package com.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * Hello world!
  */
 @SpringBootApplication
-@EnableFeignClients(basePackages = {"com.clement"})
-public class CustomerApp {
-
+public class NotificationApp {
     public static void main(String[] args) {
-        SpringApplication.run(CustomerApp.class, args);
+        SpringApplication.run(NotificationApp.class, args);
     }
 }
