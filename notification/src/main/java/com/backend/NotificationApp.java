@@ -1,16 +1,13 @@
 package com.backend;
 
-import com.backend.config.NotificationConfig;
-import com.clement.message.RabbitMQMessageProducer;
-import org.springframework.boot.CommandLineRunner;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 /**
  * Hello world!
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.backend", "com.clement"})
 public class NotificationApp {
     public static void main(String[] args) {
         SpringApplication.run(NotificationApp.class, args);
