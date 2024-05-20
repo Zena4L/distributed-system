@@ -38,3 +38,17 @@
 ## AMQP (Advance Message Queue Protocol)
 > I used `RabbitMQ` as a message broker for the starter but will be moved to `Kafka`.
 > ![RabbitMQ](https://sipodsoftware.com/wp-content/uploads/2023/04/2.jpg)
+
+## How I setup `RabbitMQ` for the first time
+> `RabbitMQConfig`
+>  - `AmqpTemplate`
+>  - `SimpleRabbitListenerContainerFactory`
+>  - `Jackson2JsonMessageConverter`
+> 
+> `RabbitMQMessageProducer` with a publish method that takes a payload,exchange and routingKey
+> `NotificationConfig`
+> - `TopicExchange`
+> - `Queue`
+> - `Binding`
+> 
+> `NotificationConsumer` with a consumer method that takes `NotifactionRequest`
