@@ -34,3 +34,7 @@
 
 > Add the zipkin image to ur compose file if you don't have it install locally
 > By adding Actuator and Zipkin dependency it will automatically fire up a zipkin dashboard
+
+## AMQP (Advance Message Queue Protocol)
+> I used `RabbitMQ` as a message broker for the starter but will be moved to `Kafka`.
+> ![RabbitMQ](https://sipodsoftware.com/wp-content/uploads/2023/04/2.jpg)

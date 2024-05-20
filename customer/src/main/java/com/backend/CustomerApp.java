@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * Hello world!
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.backend", "com.clement"})
 @EnableFeignClients(basePackages = {"com.clement"})
 public class CustomerApp {
 

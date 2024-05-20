@@ -10,8 +10,8 @@ public class GatewayConfig {
 
     @Bean
     public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-        return builder.routes().route("customer", r -> r.path("/api/v1/customers/**").uri("lb://CUSTOMER"))
-
+        return builder.routes().
+                route("customer", r -> r.path("/api/v1/customers/**").uri("http://localhost:8080"))
                 .build();
     }
 }
